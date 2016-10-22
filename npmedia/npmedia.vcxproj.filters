@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\audio">
+      <UniqueIdentifier>{530be097-6dc8-43ef-9e44-da9ef1f6c52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libav">
+      <UniqueIdentifier>{6f6bffb3-fa45-45f3-97f0-0639694c5413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\audio">
+      <UniqueIdentifier>{b5bef573-0abb-46c4-aa84-bd273ce42c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\voide">
+      <UniqueIdentifier>{4e6f8306-6dde-46c9-8ccf-4affad1ac95f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="np_entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="npn_gate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="npp_gate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audio_out.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\wave_render.cpp">
+      <Filter>源文件\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="libav\avplay.c">
+      <Filter>源文件\libav</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="npmedia.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="npmedia.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="npapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="npfunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="npplat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="npruntime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nptypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audio_out.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audio_render.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audiocvt.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\internal.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\wave_render.h">
+      <Filter>头文件\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="video\internal.h">
+      <Filter>头文件\voide</Filter>
+    </ClInclude>
+    <ClInclude Include="video\soft_render.h">
+      <Filter>头文件\voide</Filter>
+    </ClInclude>
+    <ClInclude Include="video\video_out.h">
+      <Filter>头文件\voide</Filter>
+    </ClInclude>
+    <ClInclude Include="video\video_render.h">
+      <Filter>头文件\voide</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
